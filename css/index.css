@@ -1,22 +1,20 @@
-html{font-size: 100px}
+scrollbar {width: 1px;}
 body{background: #f5f5f5;overflow-x: hidden}
 ul,ol{list-style:none;margin:0px;padding: 0}
-em.fa:before{margin-right: 0.05rem}
+em.fa:before{margin-right: 0.4rem}
 a,a:hover,a:visited{color:#333;text-decoration: none}
-header{background: #f08700;color:white;font-weight: bold;padding-top: 0.1rem;font-size: 0.15rem}
-header em.fa-search{float: right;line-height: 0.23rem}
-header p.search{background: #f2931a;border-radius: 0.15rem}
+header{background: #f08700;color:white;font-weight: bold;padding: 0.4rem 15px}
+header em.fa-search{float: right;line-height: 1.4rem}
+header p.search{background: #f2931a;border-radius: 0.15rem;margin: 0}
 header p.search span{color: #eee;font-weight: 100}
 header .title{padding: 0}
-#banner .carousel-indicators li{width: 0.1rem;height: 0.1rem;border-radius: 50%;}
-#banner .carousel-indicators li:active{width: 0.12rem;height: 0.12rem}
 #banner .carousel-inner .item img{width: 100%}
-nav.container-fluid{font-size: 0.18rem}
-nav.container-fluid .nav_list em{display: inline-block;width: 0.45rem;height:0.45rem;border-radius: 0.08rem;background: #89c997}
-nav.container-fluid .nav_list em:before{text-align: center;font-size: 0.24rem;line-height: 0.45rem;color: white;margin: 0}
+/*nav.container-fluid{font-size: 0.18rem}*/
+nav.container-fluid .nav_list em{display: inline-block;width: 3rem;height:3rem;border-radius: 0.4rem;background: #89c997}
+nav.container-fluid .nav_list em:before{text-align: center;font-size: 1.6rem;line-height: 3rem;color: white;margin: 0}
 nav.container-fluid{margin-top: 0.1rem;background: white;padding: 0.2rem 0 }
 nav.container-fluid .nav_list{display: inline-block;padding: 0;text-align: center}
-nav.container-fluid .nav_list span{display: block;font-size: 0.12rem}
+nav.container-fluid .nav_list span{display: block;margin: 10px 0;margin-top: 5px}
 nav.container-fluid .nav_list.news em{background: #7ecef4}
 nav.container-fluid .nav_list.activity em{background: #8c97cb}
 nav.container-fluid .nav_list.tourism em{background: #c490bf}
@@ -27,25 +25,25 @@ nav.container-fluid .nav_list.edu em{background: #8dd0be}
 nav.container-fluid .nav_list.video em{background: #c7c5e6}
 nav.container-fluid .nav_list.photo em{background: #9dcc7a}
 section>div.clearfix{background: white}
-div.clearfix>h3{padding:0.1rem;font-size: 0.18rem;background: #f5f5f5;margin: 0}
-div.clearfix>h3 em{color:#89c997}
-div.clearfix>h3 span{display: inline-block;width: 0.1rem;height:0.1rem;background: #aeaeae;border-radius: 50%;margin-left: 0.03rem;margin-top: -0.05rem;}
-div.clearfix>h3 a{line-height: 0.185rem;padding-bottom: 2px;}
+div.clearfix>h5{padding:1rem;background: #f5f5f5;margin: 0}
+div.clearfix>h5 em{color:#89c997}
+div.clearfix>h5 span{display: inline-block;width: 0.4rem;height:0.4rem;background: #aeaeae;border-radius: 50%;margin-left: 0.3rem}
+div.clearfix>h5 a{line-height: 1rem}
 .sports_video{padding:10px 0 0 10px;background: white;font-size:0.12rem}
-.sports_video a{display: inline-block;padding:0 10px 0 0;margin-bottom: 0.1rem}
-.sports_video img{width: 100%;height: 1rem;margin-bottom: 0.1rem}
+.sports_video a{display: inline-block;padding:0 10px 0 0;margin-bottom: 1rem}
+.sports_video img{width: 100%;margin-bottom: 0.1rem}
 .sports_video a span.sports_video_title{display: inline-block;width: 70%;height:1em}
 .sports_video a em{color:#999}
 .sports_news a{display: inline-block;width:100%;padding: 10px;border-bottom: 1px solid #eee}
 .sports_news li:last-child a{border: none}
-.sports_news img{width: 1rem;height: 0.65rem;float: left;margin-right: 0.1rem}
-.sports_news p{padding-top: 0.02rem;margin-bottom:0.18rem;height: 2em}
+.sports_news img{width: 100px;height: 65px;float: left;margin-right: 1rem}
+.sports_news p{padding-top: 0.02rem;margin-bottom:0.18rem;height: 3em}
 .sports_news span{color:#999}
 .activity_container.clearfix>a{display: inline-block;width: 100%;padding: 10px;border-bottom: 1px solid #eee}
 .activity_container.clearfix>a:last-child{border: none}
 .activity_container.clearfix img{width: 100%;height: 1.8rem}
 .activity_container.clearfix p{margin-top: 10px}
-.activity_container.clearfix p span.activity_container_title{display: inline-block;width: 82%;height:0.24rem;overflow: hidden}
+.activity_container.clearfix p span.activity_container_title{display: inline-block;width: 80%;height:1.3rem;overflow: hidden}
 .activity_container.clearfix em{color: #999}
 .activity_container.clearfix em.time{display: inline-block;width: 30%;}
 .tourism_container.clearfix a:not(.pull-right){display: inline-block;width: 100%;padding: 10px;border-bottom: 1px solid #eee}
@@ -59,10 +57,11 @@ div.clearfix>h3.live_container_title{text-align: center}
 .live_container.clearfix span{padding: 0}
 .live_container.clearfix span.container_title{display:inline-block;width:57%;overflow: hidden}
 .live_container.clearfix span.date,.live_container.clearfix span.ads{padding-left: 5px}
-.second{background: #f5f5f5;padding:0 10px;}
-.second a{display: inline-block;background: white;padding: 5px 10px;width: 48.5%;font-size: 0.14rem;margin-bottom: 5px;}
-.second a:nth-child(odd){float: left}
-.second a:nth-child(even){float: right}
-.second img{width: 40%;height: 0.5rem;float: left;margin-right: 10px;}
-.second p{height: 0.18rem;overflow: hidden}
-.literature_container.clearfix{}
+.second_container{text-align: center}
+.second_container .money{color:#f08700}
+.literature_container.clearfix>a{display: block;padding: 10px;}
+.literature_title{margin-top: 15px;}
+.literature_container.clearfix img{float: left;width:8rem;height:6rem;margin-right: 0.5rem}
+.literature_container.clearfix .literature_title_type{display:inline-block;background: #f08700;color: white;border-radius: 8px;padding: 0 3px;margin-right: 5px}
+.literature_title_bottom{font-size: 0.8rem;color: #999}
+.literature_title_date{margin: 0 8px}
