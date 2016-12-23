@@ -1,0 +1,50 @@
+@media only screen and (max-width: 350px){
+	html {
+		font-size: 500%!important; 
+	}
+} 
+body{color:#333333;background: #f5f5f5;margin: 0 auto;}
+
+* {margin: 0; padding: 0;}
+
+body,html {
+	font-size: 100px; 
+	color:#333333;
+}
+header{
+	height: 1rem;
+	background: red;
+}
+section .head{
+	float: left;
+	line-height: 0.6rem;
+	width: 33.3%;
+	text-align: center;
+	font-size: 0.24rem;
+	background: #eeeeee;
+} 
+section .container{
+	padding: 0.2rem 0.2rem 0rem 0.2rem;
+	overflow: hidden;
+	margin:0 auto;
+	text-align: center;
+}
+section .container img{
+	width: 100%;
+}
+section .container p{
+	width: 100%;
+	font-size: 0.18rem;
+	text-align: left;
+	margin-top: 0.1rem;
+	text-indent: 0.05rem;
+}
+section .container p:last-child{text-align: center;color: #f08700;text-indent: 0rem;}
+section .container p .day{
+	padding: 0 0.08rem;
+	border-radius:0.18rem;
+	margin-right: 0.1rem;
+	background-color: #f08700; 
+	color: #fff;display: inline-block;float: left;
+}
+section .container p:nth-child(2) span:last-child{display: inline-block;float: left;width: 60%;}

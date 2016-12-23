@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta charset="UTF-8">
+  <title>龙子网</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,minimum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="css/clear0.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/active.css">
+</head>
+<body>
+<!-- 跳转页面 -->
+<div class="classify">
+<header class="container-fluid f-clear">
+  <i class="fa fa-times" aria-hidden="true"></i>
+  活动分类
+</header>
+<section>
+<ul>
+  <li class="f-clear">全部分类
+  <i class="fa fa-check" aria-hidden="true"></i>
+  </li>
+  <li class="f-clear">运动健身
+  <i class="fa fa-check" aria-hidden="true"></i>
+  </li>
+  <li class="f-clear">艺术家园
+  <i class="fa fa-check" aria-hidden="true"></i>
+  </li>
+  <li class="f-clear">公益活动
+  <i class="fa fa-check" aria-hidden="true"></i>
+  <li class="f-clear">电玩竞技
+  <i class="fa fa-check" aria-hidden="true"></i>
+  </li>
+</ul>
+</section>
+</div>
+<header class="container-fluid f-clear"></header>
+<!-- 活动页面 -->
+<section>
+  <ul class="f-clear">
+    <li class="head all">全部活动</li>
+    <li class="head give">推荐活动</li>
+    <li class="head new">最新上传</li>
+  </ul>
+  <div class="container">
+    <img src="images/active.jpg" alt="">
+    <p class="img-p1">大学生女子羽毛球比赛</p>
+    <p><i class="fa fa-clock-o" aria-hidden="true"></i>2016-11-10<em class="pull-right"><span class="pnum">15人</span><span>报名</span></em>
+    </p>
+    <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+     <span>河南农业大学体育馆</span><span class="pull-right price">免费</span></p>
+  </div>
+
+  <div class="container">
+    <img src="images/active.jpg" alt="">
+    <p class="img-p1">大学生女子羽毛球比赛</p>
+    <p><i class="fa fa-clock-o" aria-hidden="true"></i>2016-11-10<em class="pull-right"><span class="pnum">15人</span><span>报名</span></em>
+    </p>
+    <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+     <span>河南农业大学体育馆</span><span class="pull-right price">免费</span></p>
+  </div>
+
+  <div class="container">
+    <img src="images/active.jpg" alt="">
+    <p class="img-p1">大学生女子羽毛球比赛</p>
+    <p><i class="fa fa-clock-o" aria-hidden="true"></i>2016-11-10<em class="pull-right"><span class="pnum">15人</span><span>报名</span></em>
+    </p>
+    <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+     <span>河南农业大学体育馆</span><span class="pull-right price">免费</span></p>
+  </div>
+
+  <div class="container">
+    <img src="images/active.jpg" alt="">
+    <p class="img-p1">大学生女子羽毛球比赛</p>
+    <p><i class="fa fa-clock-o" aria-hidden="true"></i>2016-11-10<em class="pull-right"><span class="pnum">15人</span><span>报名</span></em>
+    </p>
+    <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+     <span>河南农业大学体育馆</span><span class="pull-right price">免费</span></p>
+  </div>
+</section>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+window.onload = function(){
+    var box0 = document.querySelector('.all');
+    box0.addEventListener('touchstart', function(e){
+      $('.classify').show();
+    });
+  }
+$(document).ready(function(){
+  $('.classify section ul li').bind('touchstart', function(e){
+    $(this).children().show();
+    $(this).siblings().children().hide();
+    var text=$(this).text();
+    $('.all').text(text);
+  });
+
+  $('.classify header i').bind('touchstart', function(e){
+    $('.classify').hide();
+  })
+});
+</script>
+</body>
+</html>

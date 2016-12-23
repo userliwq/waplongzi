@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+  <meta charset="UTF-8">
+  <title>龙子网</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,minimum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/index.css">
+  <!--<script>!function(e){function t(a){if(i[a])return i[a].exports;var n=i[a]={exports:{},id:a,loaded:!1};return e[a].call(n.exports,n,n.exports,t),n.loaded=!0,n.exports}var i={};return t.m=e,t.c=i,t.p="",t(0)}([function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=window;t["default"]=i.flex=function(e,t){var a=e||100,n=t||1,r=i.document,o=navigator.userAgent,d=o.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i),l=o.match(/U3\/((\d+|\.){5,})/i),c=l&&parseInt(l[1].split(".").join(""),10)>=80,p=navigator.appVersion.match(/(iphone|ipad|ipod)/gi),s=i.devicePixelRatio||1;p||d&&d[1]>534||c||(s=1);var u=1/s,m=r.querySelector('meta[name="viewport"]');m||(m=r.createElement("meta"),m.setAttribute("name","viewport"),r.head.appendChild(m)),m.setAttribute("content","width=device-width,user-scalable=no,initial-scale="+u+",maximum-scale="+u+",minimum-scale="+u),r.documentElement.style.fontSize=a/2*s*n+"px"},e.exports=t["default"]}]);  flex(100, 1);</script>-->
+</head>
+
+<body>
+  <header class="container-fluid">
+    <span class="title col-xs-3">龙子网</span>
+    <p class="search col-xs-9">
+      <span>输入搜索内容</span>
+      <em class="fa fa-search"></em>
+    </p>
+  </header>
+  <section>
+    <div id="banner" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#banner" data-slide-to="0" class="active"></li>
+        <li data-target="#banner" data-slide-to="1"></li>
+        <li data-target="#banner" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <a class="item active">
+          <img src="images/1.png" alt="">
+        </a>
+        <a class="item">
+          <img src="images/2.png" alt="">
+        </a>
+        <a class="item">
+          <img src="images/3.png" alt="">
+        </a>
+      </div>
+    </div>
+    <nav class="container-fluid">
+      <a href="#" class="nav_list sports col-xs-2">
+        <em class="fa fa-futbol-o"></em>
+        <span class="nav_title">体育</span>
+      </a>
+      <a href="#" class="nav_list news col-xs-2">
+        <em class="fa fa-newspaper-o"></em>
+        <span class="nav_title">新闻</span>
+      </a>
+      <a href="#" class="nav_list activity col-xs-2">
+        <em class="fa fa-flag-o"></em>
+        <span class="nav_title">活动</span>
+      </a>
+      <a href="#" class="nav_list tourism col-xs-2">
+        <em class="fa fa-bus"></em>
+        <span class="nav_title">旅游</span>
+      </a>
+      <a href="#" class="nav_list live col-xs-2">
+        <em class="fa fa-gift"></em>
+        <span class="nav_title">生活</span>
+      </a>
+      <a href="#" class="nav_list shop col-xs-2">
+        <em class="fa fa-shopping-bag"></em>
+        <span class="nav_title">商城</span>
+      </a>
+      <a href="#" class="nav_list literature col-xs-2">
+        <em class="fa fa-pencil"></em>
+        <span class="nav_title">文学</span>
+      </a>
+      <a href="#" class="nav_list edu col-xs-2">
+        <em class="fa fa-futbol-o"></em>
+        <span class="nav_title">教育</span>
+      </a>
+      <a href="#" class="nav_list video col-xs-2">
+        <em class="fa fa-file-video-o"></em>
+        <span class="nav_title">视频</span>
+      </a>
+      <a href="#" class="nav_list photo col-xs-2">
+        <em class="fa fa-file-image-o"></em>
+        <span class="nav_title">图册</span>
+      </a>
+    </nav>
+    <div class="sports_container clearfix">
+      <h3><em class="fa fa-futbol-o"></em>体育<a href="#" class="pull-right"><span></span><span></span><span></span></a></h3>
+      <div class="sports_video clearfix">
+        <a href="#" class="col-xs-6">
+          <img src="images/1.png" alt="">
+          <span class="sports_video_title">国足选帅拒绝里皮</span>
+          <em class="fa fa-play-circle-o">2.1万</em>
+        </a>
+        <a href="#" class="col-xs-6">
+          <img src="images/1.png" alt="">
+          <span class="sports_video_title">国足选帅拒绝里皮</span>
+          <em class="fa fa-play-circle-o">2.1万</em>
+        </a>
+        <a href="#" class="col-xs-6">
+          <img src="images/1.png" alt="">
+          <span class="sports_video_title">国足选帅拒绝里皮</span>
+          <em class="fa fa-play-circle-o">2.1万</em>
+        </a>
+        <a href="#" class="col-xs-6">
+          <img src="images/1.png" alt="">
+          <span class="sports_video_title">国足选帅拒绝里皮</span>
+          <em class="fa fa-play-circle-o">2.1万</em>
+        </a>
+      </div>
+      <ul class="sports_news">
+        <li>
+          <a href="#">
+            <img src="#" alt="">
+            <p>国足选帅拒绝里皮</p>
+            <span>10-17  06:18<span class="pull-right">人气：8699</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="#" alt="">
+            <p>国足选帅拒绝里皮</p>
+            <span>10-17  06:18<span class="pull-right">人气：8699</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="#" alt="">
+            <p>国足选帅拒绝里皮</p>
+            <span>10-17  06:18<span class="pull-right">人气：8699</span></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="news_container clearfix">
+      <h3><em class="fa fa-newspaper-o"></em>新闻<a href="#" class="pull-right"><span></span><span></span><span></span></a></h3>
+      <ul class="sports_news">
+        <li>
+          <a href="#">
+            <img src="#" alt="">
+            <p>国足选帅拒绝足选帅拒绝足选帅拒绝里皮</p>
+            <span>10-17  06:18<span class="pull-right">人气：8699</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="#" alt="">
+            <p>国足选帅拒绝里皮</p>
+            <span>10-17  06:18<span class="pull-right">人气：8699</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="#" alt="">
+            <p>国足选帅拒绝里皮</p>
+            <span>10-17  06:18<span class="pull-right">人气：8699</span></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="activity_container clearfix">
+      <h3><em class="fa fa-flag-o"></em>活动<a href="#" class="pull-right"><span></span><span></span><span></span></a></h3>
+      <a href="#">
+        <img src="#" alt="">
+        <p><span class="activity_container_title">大学生女子羽毛球比赛大学生女子羽毛球比赛</span><span class="pull-right">15人报名</span></p>
+        <em class="fa fa-clock-o time">2016-11-10</em><em class="fa fa-map-marker">河南农业大学体育馆</em>
+      </a>
+      <a href="#">
+        <img src="#" alt="">
+        <p><span class="activity_container_title">大学生女子羽毛球比赛大学生女子羽毛球比赛</span><span class="pull-right">15人报名</span></p>
+        <em class="fa fa-clock-o time">2016-11-10</em><em class="fa fa-map-marker">河南农业大学体育馆</em>
+      </a>
+      <a href="#">
+        <img src="#" alt="">
+        <p><span class="activity_container_title">大学生女子羽毛球比赛大学生女子羽毛球比赛</span><span class="pull-right">15人报名</span></p>
+        <em class="fa fa-clock-o time">2016-11-10</em><em class="fa fa-map-marker">河南农业大学体育馆</em>
+      </a>
+    </div>
+    <div class="tourism_container clearfix">
+      <h3><em class="fa fa-bus"></em>旅游<a href="#" class="pull-right"><span></span><span></span><span></span></a></h3>
+      <a href="#">
+        <img src="#" alt="">
+        <p><span>一日游</span>新疆喀什特色沙漠古镇五日游</p>
+        <span class="money">￥3999</span>
+      </a>
+      <a href="#">
+        <img src="#" alt="">
+        <p><span>一日游</span>新疆喀什特色沙漠古镇五日游</p>
+        <span class="money">￥3999</span>
+      </a>
+      <a href="#">
+        <img src="#" alt="">
+        <p><span>一日游</span>新疆喀什特色沙漠古镇五日游</p>
+        <span class="money">￥3999</span>
+      </a>
+    </div>
+    <div class="live_container clearfix">
+      <h3><em class="fa fa-gift"></em>生活<a href="#" class="pull-right"><span></span><span></span><span></span></a></h3>
+      <h3 class="live_container_title">/ 兼职 /</h3>
+      <ul>
+        <li>
+          <a href="#">
+            <span class="type pull-left">【家教】</span>
+            <span class="container_title">招小学作业辅导老师一人 </span>
+            <span class="date pull-right">10-20</span>
+            <span class="ads pull-right">二七区</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="type pull-left">【家教】</span>
+            <span class="container_title">招小学作业辅导老师一人 </span>
+            <span class="date pull-right">10-20</span>
+            <span class="ads pull-right">二七区</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="type pull-left">【家教】</span>
+            <span class="container_title">招小学作业辅导老师一人 </span>
+            <span class="date pull-right">10-20</span>
+            <span class="ads pull-right">二七区</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="type pull-left">【家教】</span>
+            <span class="container_title">招小学作业辅导老师一人 </span>
+            <span class="date pull-right">10-20</span>
+            <span class="ads pull-right">二七区</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="type pull-left">【家教】</span>
+            <span class="container_title">招小学作业辅导老师一人 </span>
+            <span class="date pull-right">10-20</span>
+            <span class="ads pull-right">二七区</span>
+          </a>
+        </li>
+      </ul>
+      <h3 class="live_container_title">/ 租房 /</h3>
+      <ul class="sports_news">
+        <li>
+          <a href="#">
+            <img src="#" alt="">
+            <p>国足选帅拒绝足选帅拒绝足选帅拒绝里皮</p>
+            <span>10-17  06:18<span class="pull-right">人气：8699</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="#" alt="">
+            <p>国足选帅拒绝里皮</p>
+            <span>10-17  06:18<span class="pull-right">人气：8699</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="#" alt="">
+            <p>国足选帅拒绝里皮</p>
+            <span>10-17  06:18<span class="pull-right">人气：8699</span></span>
+          </a>
+        </li>
+      </ul>
+      <h3 class="live_container_title">/ 二手市场 /</h3>
+      <div class="second clearfix">
+        <a href="#">
+          <img src="#" alt="">
+          <p>山地自行车</p>
+          <p>￥3999</p>
+        </a>
+        <a href="#">
+          <img src="#" alt="">
+          <p>山地自行车</p>
+          <p>￥3999</p>
+        </a>
+        <a href="#">
+          <img src="#" alt="">
+          <p>山地自行车</p>
+          <p>￥3999</p>
+        </a>
+        <a href="#">
+          <img src="#" alt="">
+          <p>山地自行车</p>
+          <p>￥3999</p>
+        </a>
+      </div>
+    </div>
+    <div class="literature_container clearfix">
+      <h3><em class="fa fa-pencil"></em>文学<a href="#" class="pull-right"><span></span><span></span><span></span></a></h3>
+      <a href="#">
+        <img src="#" alt="">
+        <p class="literature_title"><span class="literature_title_type">小说</span>陌上花开</p>
+        <p><span class="literature_title_author">作者：卢小小</span class="literature_title_date"><span>10-17 </span><span>人气：8699</span></p>
+      </a>
+    </div>
+  </section>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
